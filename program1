@@ -7,5 +7,5 @@ System.out.println(cursor.next());
 }
 cursor.close();
 System.out.println
-("---------------------------------------------------------");
+("These are the emps of comp department");
 
