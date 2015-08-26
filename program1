@@ -1,0 +1,9 @@
+//display all emp of comp dept
+System.out.println("Display all emp of comp dept");
+BasicDBObject searchquery=new BasicDBObject("dept","comp");
+while(cursor.hasNext())
+{
+System.out.println(cursor.next());
+}
+cursor.close();
+
