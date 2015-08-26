@@ -6,4 +6,6 @@ while(cursor.hasNext())
 System.out.println(cursor.next());
 }
 cursor.close();
+System.out.println
+("---------------------------------------------------------");
 
